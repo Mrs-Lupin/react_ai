@@ -12,15 +12,17 @@
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.0",
     "antd": "^5.24.4",
+    "mobx": "^6.13.7",
+    "mobx-react-lite": "^4.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -42,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "^7.1.0",
     "@types/node": "^16.18.126",
     "autoprefixer": "^10.4.21",
     "node-sass": "^9.0.0",

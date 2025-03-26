@@ -2,6 +2,7 @@ import Header from './views/Header';
 import Chat from './views/Chat';
 import Footer from './views/Footer';
 import './App.scss';
+import { observer } from 'mobx-react-lite';
 
 
 function App() {
@@ -14,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default observer(App)
